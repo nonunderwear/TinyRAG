@@ -1,17 +1,9 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-'''
-@File    :   VectorBase.py
-@Time    :   2024/02/12 10:11:13
-@Author  :   不要葱姜蒜
-@Version :   1.0
-@Desc    :   None
-'''
+
 
 import os
 from typing import Dict, List, Optional, Tuple, Union
 import json
-from RAG.Embeddings import BaseEmbeddings, OpenAIEmbedding, JinaEmbedding, ZhipuEmbedding
+from RAG.Embeddings import BaseEmbeddings, BgeEmbedding
 import numpy as np
 from tqdm import tqdm
 
